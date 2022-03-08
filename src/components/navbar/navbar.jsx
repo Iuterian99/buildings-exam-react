@@ -9,20 +9,26 @@ function TopHeader() {
       <div className="col-12 p-0 m-0">
         <ul className="list-unstyled d-flex justify-content-evenly align-items-center m-0">
           <li className="">
-            <img className="buildingImage" src={BuildingImage} alt="" width="100px" height="80px" />
+            <img
+              className="buildingImage"
+              src={BuildingImage}
+              alt=""
+              width="100px"
+              height="80px"
+            />
           </li>
           <li className="me-2">
-            <Link className="text-decoration-none" href="#">
+            <Link className="text-decoration-none text-light" href="#">
               INFO
             </Link>
           </li>
           <li className="me-2">
-            <Link className="text-decoration-none" href="#">
+            <Link className="text-decoration-none text-light" href="#">
               CONTACTS
             </Link>
           </li>
           <li className="">
-            <Link className="text-decoration-none" href="#">
+            <Link className="text-decoration-none text-light" href="#">
               MAIN
             </Link>
           </li>
