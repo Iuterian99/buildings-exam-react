@@ -18,17 +18,17 @@ function TopHeader() {
             />
           </li>
           <li className="me-2">
-            <Link className="text-decoration-none text-light" href="#">
+            <Link className="text-decoration-none text-light" to="#">
               INFO
             </Link>
           </li>
           <li className="me-2">
-            <Link className="text-decoration-none text-light" href="#">
+            <Link className="text-decoration-none text-light" to="#">
               CONTACTS
             </Link>
           </li>
           <li className="">
-            <Link className="text-decoration-none text-light" href="#">
+            <Link className="text-decoration-none text-light" to="#">
               MAIN
             </Link>
           </li>
