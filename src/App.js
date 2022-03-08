@@ -1,5 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Switch, Route } from "react-router";
 
 // Components
 import TopHeader from "./components/navbar/navbar";
